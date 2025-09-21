@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Victoria Nahir Caseres</title>
+    <link rel="stylesheet" href="estilos.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header id="menu">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>¡Hola! Soy Victoria Nahir Caseres</h1>
+        <div class="presentacion-container">
+            <img src="mi-foto.jpg" alt="Foto de Victoria" class="perfil-img">
+            <div class="info-general">
+                <p>Como estudiante de Técnico Universitario en Programación en la UTN FRGP, me defino por mi proactividad, responsabilidad y eficiencia. Mi enfoque está en la resolución de problemas y en la creación de soluciones digitales que no solo sean funcionales, sino también intuitivas y estéticamente atractivas para el usuario.</p>
+                <p>Motivada por el desarrollo y diseño web, busco activamente capacitarme en nuevas tecnologías para mantenerme en constante crecimiento profesional. Mi objetivo es aportar valor a través de proyectos de calidad, optimizando cada proceso para alcanzar las metas propuestas.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="conocimientos">
+        <h2>Conocimientos</h2>
+        <ul>
+            <li>Pensamiento Computacional y Programación - Escuela Don Orione (2022)</li>
+            <li>Programación de Sistemas Informáticos Multidimencionales - Escuela Don Orione (2022)</li>
+            <li>Nivel 3 de inglés - Instituto Rainbow (2024)</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>TPWinForm_Equipo23B</h3>
+            <p>Primer proyecto en c# utilizando github para la Materia PROGRMACIÓN 3</p>
+            <a href="https://github.com/Karenn-moreno/TPWinForm_Equipo23B.git" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="proyecto">
+            <h3>SISTEMA-GESTION-CANCHAS</h3>
+            <p>Sistema de gestion de chanchas de futbol y de padel para la materia PROGRAMACIÓN 2</p>
+            <a href="https://github.com/VictoriaCaseres/SISTEMA-GESTION-CANCHAS.git" target="_blank">Ver proyecto</a>
+        </div>
+    </section>
+
+     <section id="experiencia">
+    <h2>Experiencia</h2>
+    <ul>
+        <li>Actualmente me encuentro como becada administrativa en el area de ingreso a la carrera Tecnico Universitario en Programación en la UTN FRGP</li>
+    </ul>
+    </section>
+
+    <section id="redes">
+    <h2>Redes</h2>
+    <div class="redes-sociales">
+    <a href="https://www.linkedin.com/in/victoria-nahir-caseres-b90100377/" target="_blank" class="enlace-red">
+    <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/VictoriaCaseres" target="_blank" class="enlace-red">
+    <i class="fa-brands fa-github"></i> GitHub
+    </a>
+    </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Formulario de contacto</h2>
+        <form id="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+            <p id="form-message" class="hidden"></p>
+        </form>
+    </section>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
