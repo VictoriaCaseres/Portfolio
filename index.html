@@ -3,95 +3,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio - Victoria Nahir Caseres</title>
+    <title>Victoria Nahir Caseres - Portafolio</title>
     <link rel="stylesheet" href="estilos.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <header id="menu">
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#conocimientos">Conocimientos</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
+    <header class="navbar">
+        <div class="logo">Victoria Nahir Caseres</div>
+        <nav class="nav-links">
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#conocimientos">Conocimientos</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
-    <section id="inicio">
-        <h1>¡Hola! Soy Victoria Nahir Caseres</h1>
-        <div class="presentacion-container">
-            <img src="mi-foto.jpg" alt="Foto de Victoria" class="perfil-img">
-            <div class="info-general">
-                <p>Como estudiante de Técnico Universitario en Programación en la UTN FRGP, me defino por mi proactividad, responsabilidad y eficiencia. Mi enfoque está en la resolución de problemas y en la creación de soluciones digitales que no solo sean funcionales, sino también intuitivas y estéticamente atractivas para el usuario.</p>
-                <p>Motivada por el desarrollo y diseño web, busco activamente capacitarme en nuevas tecnologías para mantenerme en constante crecimiento profesional. Mi objetivo es aportar valor a través de proyectos de calidad, optimizando cada proceso para alcanzar las metas propuestas.</p>
+    <main class="main-container">
+        
+        <section class="grid-inicio" id="inicio">
+            <div class="columna-perfil">
+                <div class="foto-perfil">
+                    <img src="yo 3.jpg" alt="Victoria Nahir Caseres">
+                </div>
                 
+                <div class="tarjeta info-adicional-card">
+                    <h4>Datos Personales</h4>
+                    <p>📍 <strong>Ubicación:</strong> Buenos Aires, Argentina</p>
+                    <p>📧 <strong>Email:</strong> victoria.caseres2005@gmail.com</p>
+                    <p>🗣️ <strong>Idiomas:</strong> Español (Nativo) / Inglés (Intermedio)</p>
+                </div>
             </div>
-        </div>
-    </section>
+            
+            <div class="tarjeta card-perfil">
+                <span class="subtitulo-seccion">INICIO</span>
+                <h2>Victoria Nahir Caseres</h2>
+                <p>
+                    Estudiante de la Tecnicatura Universitaria en Programación en la UTN FRGP con experiencia administrativa en instituciones académicas y empresas. Cuento con conocimientos en programación, herramientas digitales, gestión documental y organización de procesos, combinando habilidades técnicas.                </p>
+                <p>
+                    Me caracterizo por mi capacidad de aprendizaje, responsibility, organización y adaptación a nuevos desafíos. Actualmente continúo mi formación en programación e inglés (preparación para First Certificate) y busco desarrollarme profesionalmente tanto en el área IT como en el ámbito administrativo, aportando compromiso, iniciativa y una actitud de mejora continua.
+                
+                <div class="perfil-botones">
+                    <a href="CURRICULUM-VICTORIA-NAHIR-CASERES.pdf" target="_blank" class="btn-primary btn-cv">
+                        Ver Mi CV
+                    </a>
 
-    <section id="conocimientos">
-        <h2>Conocimientos</h2>
-        <ul>
-            <li>Pensamiento Computacional y Programación - Escuela Don Orione (2022)</li>
-            <li>Programación de Sistemas Informáticos Multidimencionales - Escuela Don Orione (2022)</li>
-            <li>Nivel 3 de inglés - Instituto Rainbow (2024)</li>
-        </ul>
-    </section>
+                    <a href="https://www.linkedin.com/in/victoria-nahir-caseres-b90100377/" target="_blank" class="btn-linkedin">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div class="proyecto">
-            <h3>TPWinForm_Equipo23B</h3>
-            <p>Primer proyecto en c# utilizando github para la Materia PROGRMACIÓN 3</p>
-            <a href="https://github.com/Karenn-moreno/TPWinForm_Equipo23B.git" target="_blank">Ver proyecto</a>
-        </div>
-        <div class="proyecto">
-            <h3>SISTEMA-GESTION-CANCHAS</h3>
-            <p>Sistema de gestion de chanchas de futbol y de padel para la materia PROGRAMACIÓN 2</p>
-            <a href="https://github.com/VictoriaCaseres/SISTEMA-GESTION-CANCHAS.git" target="_blank">Ver proyecto</a>
-        </div>
-    </section>
+        <section class="grid-dos-columnas">
+            
+            <div class="tarjeta" id="conocimientos">
+                <h3 class="titulo-tarjeta">CONOCIMIENTOS</h3>
+                
+                <h4 class="sub-categoria">IT skills</h4>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="icon-box"><span class="icon-tag">&lt;/&gt;</span></div>
+                        <span>HTML/CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="icon-box-js">JS</div>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="icon-box">C#</div>
+                        <span>C#</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="icon-box">C++</div>
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="icon-box">📊</div>
+                        <span>Bases de Datos</span>
+                    </div>
+                     <div class="skill-item">
+                        <div class="icon-box">ASP</div>
+                        <span>ASP .NET</span>
+                    </div>
+                </div>
 
-     <section id="experiencia">
-    <h2>Experiencia</h2>
-    <ul>
-        <li>Actualmente me encuentro como becada administrativa en el area de ingreso a la carrera Tecnico Universitario en Programación en la UTN FRGP</li>
-    </ul>
-    </section>
+                <h4 class="sub-categoria">Administrative & Tools</h4>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="icon-box">📁</div>
+                        <span>Microsoft 365 (Word, Excel, PowerPoint y Outlook)</span>
+                    </div>
+                     <div class="skill-item">
+                        <div class="icon-box"><span class="icon-tag">&lt;/&gt;</span></div>
+                        <span>Tango Gestión</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="icon-box">📂</div>
+                        <span>Gestión Documental</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="icon-box">💬</div>
+                        <span>Comunicación Efectiva</span>
+                    </div>
+                     <div class="skill-item">
+                        <div class="icon-box">💬</div>
+                        <span>Atencion al Cliente</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="icon-box">📋</div>
+                        <span>Organización</span>
+                    </div>
+                </div>
+            </div>
 
-    <section id="redes">
-    <h2>Redes</h2>
-    <div class="redes-sociales">
-    <a href="https://www.linkedin.com/in/victoria-nahir-caseres-b90100377/" target="_blank" class="enlace-red">
-    <i class="fa-brands fa-linkedin"></i> LinkedIn
-    </a>
-    <a href="https://github.com/VictoriaCaseres" target="_blank" class="enlace-red">
-    <i class="fa-brands fa-github"></i> GitHub
-    </a>
-    </div>
-    </section>
+            <div class="tarjeta" id="cursos">
+                <h3 class="titulo-tarjeta">CURSOS Y CERTIFICACIONES</h3>
+                <div class="cursos-lista">
+                     <div class="curso-item realizado">
+                        <span class="estado-tag hecho">Hecho</span>
+                        <div class="curso-info">
+                            <h4>Programación de Sistemas Informáticos Multimediales</h4>
+                            <p class="institucion">Escuela de Artes y Oficion Don Orione - 2023</p>
+                        </div>
+                    </div>
+                    <div class="curso-item realizado">
+                        <span class="estado-tag hecho">Hecho</span>
+                        <div class="curso-info">
+                            <h4>Pensamiento Computacional y Programación</h4>
+                            <p class="institucion">Escuela de Artes y Oficion Don Orione - 2022</p>
+                        </div>
+                    </div>
+                    <div class="curso-item realizado">
+                        <span class="estado-tag hecho">Hecho</span>
+                        <div class="curso-info">
+                            <h4>Certificate 3rd year</h4>
+                            <p class="institucion">Liceo Superior de Cultura Inglesa - 2024</p>
+                        </div>
+                    </div>
+                    <div class="curso-item realizando">
+                        <span class="estado-tag cursando">Cursando</span>
+                        <div class="curso-info">
+                            <h4>Operador Tango Gestión</h4>
+                            <p class="institucion">IAC QUILMES - 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <section id="contacto">
-        <h2>Formulario de contacto</h2>
-        <form id="contact-form">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+        </section>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+        <section class="tarjeta ancho-completo" id="proyectos">
+            <h3 class="titulo-tarjeta">PROYECTOS</h3>
+            
+            <div class="proyectos-wrapper">
+                <div class="proyectos-container">
+                    
+                     <div class="proyecto-card">
+                        <div class="proyecto-header header-pink">
+                            <div class="court-icon">⚽🏓</div>
+                        </div>
+                        <h4>SISTEMA-GESTION-CANCHAS</h4>
+                        <p>Sistema de gestión de canchas para compras de turnos y alquiler de canchas con control de horarios.</p>
+                        <a href="https://github.com/VictoriaCaseres/SISTEMA-GESTION-CANCHAS" target="_blank" class="btn-code">
+                            <i class="fab fa-github"></i> Ver código
+                        </a>
+                    </div>
+                    <div class="proyecto-card">
+                        <div class="proyecto-header header-blue">
+                            <div class="window-icon"></div>
+                        </div>
+                        <h4>VoucherRewardsSystem-Web</h4>
+                        <p>Generamos un sistema de Voucher web</p>
+                        <a href="https://github.com/karenmoreno-dev/VoucherRewardsSystem-Web" target="_blank" class="btn-code">
+                            <i class="fab fa-github"></i> Ver código
+                        </a>
+                    </div>
+                    <div class="proyecto-card">
+                        <div class="proyecto-header header-pink">
+                            <div class="court-icon">🩺</div>
+                        </div>
+                        <h4>CLINICA</h4>
+                        <p>Portal de una clinica para gestionar medicos, pacientes y tunos.</p>
+                        <a href="https://github.com/karenmoreno-dev/GestionClinicaMedica" target="_blank" class="btn-code">
+                            <i class="fab fa-github"></i> Ver código
+                        </a>
+                    </div>
+                    <div class="proyecto-card">
+                        <div class="proyecto-header header-blue">
+                            <div class="window-icon"></div>
+                        </div>
+                        <h4>TP-ANDROID</h4>
+                        <p>En este trabajo desarrollamos nuestra primera aplicacion adroid agregando usuarios, seleccionando atributos y mostrando detalles</p>
+                        <a href="https://github.com/karenmoreno-dev/TP_Android.git" target="_blank" class="btn-code">
+                            <i class="fab fa-github"></i> Ver código
+                        </a>
+                    </div>
+                <div class="github-profile-link">
+                    <p>¿Querés ver más proyectos?</p>
+                    <a href="https://github.com/VictoriaCaseres" target="_blank" class="btn-github">
+                        <i class="fab fa-github"></i> Ir a mi Perfil de GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
 
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        <section class="grid-dos-columnas">
+            
+            <div class="tarjeta" id="experiencia">
+                <h3 class="titulo-tarjeta">EXPERIENCIA</h3>
+                <div class="timeline">
+                    <div class="timeline-item blue-dot">
+                        <div class="timeline-date">2024 - Actualidad</div>
+                        <div class="timeline-content">
+                            <h4>UTN FRGP - Becada Administrativa</h4>
+                            <ul>
+                                <li><strong>Atención y Soporte:</strong> Recepción de consultas, asistencia directa al alumnado y resolución de incidencias administrativas del día a día.</li>
+                                <li><strong>Gestión Documental:</strong> Organización, carga y mantenimiento actualizado de legajos estudiantiles y documentación académica clave en sistemas internos.</li>
+                                <li><strong>Comunicación Institucional:</strong> Archivo digital, redacción de informes técnicos y atención presencial/correo al alumnado.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item pink-dot">
+                        <div class="timeline-date">2025 - 2026</div>
+                        <div class="timeline-content">
+                            <h4>SIA S.A. - Administrativa General</h4>
+                            <ul>
+                                <li><strong>Control de Datos:</strong> Carga, actualización y auditoría de información crítica en plantillas contables y planillas de Excel.</li>
+                                <li><strong>Manejo de Información:</strong> Organización, digitalización y archivo confidencial de legajos del personal y documentación administrativa general.</li>
+                                <li><strong>Seguimiento Operativo</strong> Monitoreo activo de flujos de trabajo internos y control de calidad de la información para evitar desvíos o errores de registro.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <button type="submit">Enviar</button>
-            <p id="form-message" class="hidden"></p>
-        </form>
-    </section>
+            <div class="tarjeta" id="contacto">
+                <h3 class="titulo-tarjeta">CONTACTO</h3>
+                <form id="contact-form" action="https://formspree.io/f/xzdnzyyo" method="POST">
+                    <div class="form-row">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                        <input type="email" id="email" name="_replyto" placeholder="Email" required>
+                    </div>
+                    <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+                    
+                    <button type="submit" class="btn-submit">Enviar</button>
+                    <p id="form-message" class="hidden"></p>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
 
     <script src="codigo.js"></script>
 </body>
